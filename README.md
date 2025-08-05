@@ -6,7 +6,7 @@
 The get_next_line project is about creating a function that reads a file line by line. Every time you call the function, it returns the next line from the file. This is useful when working with large files where you don't want to load the entire content into memory at once.
 
 ---
-
+  
 ## Goal
 
 Write a function:
