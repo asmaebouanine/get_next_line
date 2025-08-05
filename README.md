@@ -10,7 +10,7 @@ The get_next_line project is about creating a function that reads a file line by
 ## Goal
 
 Write a function:
-
+  
 ```c
 char *get_next_line(int fd);
 ```
