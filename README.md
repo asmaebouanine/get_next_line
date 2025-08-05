@@ -42,26 +42,6 @@ This function should:
 
 ---
 
-## Example
-
-```c
-int main(void)
-{
-    int fd = open("file.txt", O_RDONLY);
-    char *line;
-
-    while ((line = get_next_line(fd)) != NULL)
-    {
-        printf("%s", line);
-        free(line);
-    }
-    close(fd);
-    return (0);
-}
-```
-
----
-
 ## Key Concepts
 
 * **File Descriptors**: Numbers that refer to open files.
