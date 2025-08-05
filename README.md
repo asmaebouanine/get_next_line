@@ -19,7 +19,6 @@ This function should:
 
 * Read from a file one line at a time.
 * Return the line each time it is called.
-* Work with any file or input.
 * Handle multiple files at the same time.
 
 ---
